@@ -1,0 +1,53 @@
+name: "Niharika Kohli"
+tagline: "Lead Product Manager building joyful products "
+
+meta_description: "Niharika Kohli — Lead Product Manager | AI enthusiast."
+eyebrow: "Now & next"
+location: "Singapore"
+availability: "Open to interesting conversations"
+
+now_title: "Currently"
+now_text: "I am currently a Lead Product Manager at Wikimedia Foundation (parent company of Wikipedia), leading Product Safety and Security. "
+
+about_paragraph: >
+  I’m a product manager who loves building simple solutions to solve complex problems.
+  I care deeply about product design and clear communication.
+
+about_bullets:
+  - "Lead PM at Wikimedia Foundation"
+  - "Software Engineer with an MBA "
+  - "What gets me out of bed: Taylor Swift music and OpenClaw debugging"
+
+experience:
+  - title: "Lead Product Manager"
+    company: "Wikimedia Foundation"
+    dates: "2014 — Present"
+    bullets:
+      - "Example: Led X product area serving Y users with measurable Z outcome."
+      - "Example: Collaborated with design & engineering to ship A, improving B metric."
+  - title: "Product Manager"
+    company: "Previous Company"
+    dates: "2019 — 2022"
+    bullets:
+      - "Add 2–4 bullets per role focusing on impact, not tasks."
+
+skills:
+  - "AI driven prototyping, shipping and iterating"
+  - "Product strategy and roadmapping"
+  - "Strong communication and stakeholder alignment"
+  - "Data-informed decision making"
+  - "Seasoned communicator and presenter"
+
+socials:
+  - label: "Email"
+    handle: "niharikakohli29@gmail.com"
+    url: "mailto:niharikakohli29@gmail.com"
+  - label: "LinkedIn"
+    handle: "niharika-kohli"
+    url: "https://www.linkedin.com/in/niharika-kohli/"
+  - label: "GitHub"
+    handle: "github.com/TransformedModel"
+    url: "https://github.com/TransformedModel"
+  
+footer_note: "Built with Jekyll, designed with love."
+
