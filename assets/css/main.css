@@ -162,18 +162,20 @@ img {
   padding: 4.5rem 0;
 }
 
-/* Tighten gap between Writing and Socials sections */
+/* Writing / Socials: tight vertical rhythm */
 #writing.section {
-  padding-bottom: 3rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 #socials.section {
-  padding-top: 3rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.75rem;
 }
 
 .hero {
   padding-top: 4.75rem;
-  padding-bottom: 4.5rem;
+  padding-bottom: 2.75rem;
 }
 
 .hero-inner {
@@ -870,9 +872,10 @@ img {
     grid-template-columns: minmax(0, 1fr);
   }
 
+  /* Keep board compact; do not stretch to full column width */
   .ttt-card {
-    max-width: 520px;
-    width: 100%;
+    max-width: 280px;
+    width: min(100%, 280px);
     justify-self: start;
   }
 
