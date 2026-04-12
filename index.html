@@ -69,6 +69,29 @@ layout: default
   </div>
 </section>
 
+<section id="projects" class="section">
+  <div class="container">
+    <div class="section-head">
+      <p class="kicker">Projects</p>
+    </div>
+
+    <div class="project-grid">
+      {% for p in site.data.projects %}
+        {% if p.url %}
+          <a class="project-card" href="{{ p.url }}" target="_blank" rel="noopener">
+            <div class="project-top">
+              <div class="project-title">{{ p.title }}</div>
+              {% if p.note %}<div class="project-note">{{ p.note }}</div>{% endif %}
+            </div>
+            {% if p.blurb %}<div class="project-blurb">{{ p.blurb }}</div>{% endif %}
+            <div class="project-cta">Open →</div>
+          </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
 <script>
   (function () {
     var root = document.querySelector('.ttt-card');
